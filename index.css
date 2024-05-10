@@ -1,0 +1,166 @@
+:root{
+    --dija :#FFBB1C;
+    --latyr:#fff;
+
+}
+
+body{
+    margin: 0;
+   
+}
+header{
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 20;
+    position: fixed;
+    width: 100%;
+    height: 75px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: var(--latyr);
+    box-shadow: 0 0 10px 0 rgba(0,0,0,0.2);
+
+  
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+ ul{
+    display: flex;
+   
+}
+ ul li{
+    margin: 15px;
+    list-style: none;
+    
+}
+ ul a{
+   text-decoration: none;
+   color: #000;
+    
+}
+
+ img{
+    width: 100px;
+    padding: 10px 24px;
+}
+.login{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.login  img{
+    width: 20px;
+}
+.login button{
+    padding: 10px 20px;
+    background-color: #DB671D;
+    border: none;
+    border-radius: 8px ;
+    color: #fff;
+
+}
+.login span{
+    color: #000;
+}
+.button{
+    padding: 10px 24px;
+}
+.button button{
+    padding: 10px 24px;
+    color: #fff;
+    background-color: #007810;
+    border: none;
+    border-radius: 4px;
+  
+}
+.baground{
+    margin-top: 5%;
+    margin-left: 0;
+    background-image: url(pano.jpg), linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.18));
+    background-size: cover;
+    width: 100%;
+    height: 500px;
+    display: flex;
+}
+
+
+.livre{
+    padding: 10rem;
+    width: 100vh;
+}
+.livre h1{
+    font-size: 30px;
+    color: #DB671D;
+}
+.livre p{
+    color: #fff;
+    font-weight: 500;
+}
+.livre button{
+    padding: 10px 24px;
+    color: #DB671D;
+}
+.modal{
+    display: none;
+}
+.container{
+   display: flex;
+justify-content: left;
+  margin-top: 20px;
+  margin-bottom: 20px;
+padding-left: 8rem;
+gap: 30px;
+box-shadow: 0 5px #ccc;
+}
+.card{
+ background-color: #d16b2c;
+ /* width: 300px; */
+ border-radius: 10px;
+ overflow: hidden;
+ z-index: 1;
+ height: 180px;
+
+
+}
+
+.button2{
+    font-weight: 600;
+    line-height: 2em;
+    cursor: pointer;
+    font-size: 15px;
+    margin-right: 15px;
+    padding: 0 10px;
+    display: inline-block;
+    overflow: hidden;
+    z-index: 1;
+    color:#DB671D;
+    box-shadow: 0 5px ;
+    background-color: #fff;
+    /* border: 2px solid var(--color); */
+    border-radius: 6px;
+    position: relative;
+  
+  }
+  .button1,.button3{
+    font-weight: 600;
+    line-height: 2em;
+    cursor: pointer;
+    font-size: 15px;
+    margin-right: 15px;
+    padding: 0 10px;
+    display: inline-block;
+    overflow: hidden;
+    z-index: 1;
+    color:#000;
+   
+    /* background-color: #FAFAFC; */
+    /* border: 2px solid var(--color); */
+    border-radius: 6px;
+    position: relative;
+  
+  }
